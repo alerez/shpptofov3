@@ -40,7 +40,7 @@ Vue.component("task", {
 });
 
 const url = "https://aboyko.shpp.me/api/v3/router.php?action=";
-const site = "https://shpptodo.herokuapp.com/LoginToDo/login.html";
+const site = "https://shpptodov3.herokuapp.com/LoginToDo/login.html";
 let vue = new Vue({
 	el: '#app',
 	data: {
