@@ -94,7 +94,7 @@ let vue = new Vue({
 				},
 			}).then(res => res.json())
 				.then((response) => {
-					if (response.id) {
+					if (response.id >= 0) {
 						this.getItems();
 						this.new_task.text = '';
 					} else {
